@@ -14,3 +14,7 @@ The complete turorial url is: https://netslovers.com/2022/03/11/python-pip-insta
 4. Enable BBR
 5. Set Our Server QR Code And Base64 Encoded URI
 
+### Set BBR tcp_congestion_control And Tunning The Kernel For Shadowsocks
+
+Create the file [local.conf](./local.conf) into the sysctl configuration path /etc/sysctl.d/local.conf and insert the following configs
+
