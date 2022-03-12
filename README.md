@@ -19,3 +19,11 @@ The complete turorial url is: https://netslovers.com/2022/03/11/python-pip-insta
 Create the file [local.conf](./local.conf) into the sysctl configuration path /etc/sysctl.d/local.conf and insert the following configs
 and apply changes by runngin `# sysctl -p`
 
+
+### Shadowsocks JSON Configuration File
+
+Configure Shadowsocks Server by creating the file [/etc/shadowsocks.json](./shadowsocks.json) in the JSON format and appending the following config into it.
+
+### Installing Shadowsocks Python Server
+
+`# pip install https://github.com/shadowsocks/shadowsocks/archive/master.zip`
